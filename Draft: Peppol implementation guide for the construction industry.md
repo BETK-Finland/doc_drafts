@@ -548,46 +548,7 @@ Examples of [cbc:EndpointID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catal
 
 ### 6.3 Delivery
 
-*(Jos rivitasolla on osoite, käytetään sitä. Muuten voidaan käyttää otsikkoa)*  
-
-The delivery information can be stated at the whole order level or on the order line level.  
-- Use the order header level for **pre-packed-loads**  
-- For others **non-pre-packed-loads** use the order line level  
-
-- [cac:DeliveryLocation](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-DeliveryLocation/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the identifier of the delivery address.  
-  - This can be e.g. a **GLN** address of a construction site  
-  - is not mandatory  
-  - If you use GLN, the code for it is **0088**  
-  - Codes from **ISO 6523 ICD list** must be used  
-
-- [cac:DeliveryLocation](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-DeliveryLocation/) / [cbc:Name](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-Name/) is the **name** of the delivery location.  
-  - E.g. the name of the construction site or a location inside it  
-
-- [cac:DeliveryLocation](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-DeliveryLocation/) / [cac:Address](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-DeliveryLocation/cac-Address/) structure is used for the **delivery address**.  
-
-- The [cac:RequestedDeliveryPeriod](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-RequestedDeliveryPeriod/) has:  
-  - [cbc:StartDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartDate/)  
-  - [cbc:StartTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartTime/)  
-  - [cbc:EndDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-LineValidityPeriod/cbc-EndDate/)  
-  - [cbc:EndTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-EndTime/)  
-
-  If the delivery period is not a range of days, but just one day, please add both the Start and End dates on the same day.  
-  - Dates must be formatted as **DD-MM-YYYY**  
-  - Times must be formatted as **HH:MM:SS**  
-
-  For multiple delivery slots use the [cbc:Note](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-Note/) since that functionality is not currently supported by **Peppol**.  
-
-- [cac:DeliveryParty](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-DeliveryParty/) is not covered by this implementation guide as the buyer is always expected to be the one to whom the goods are delivered.  
-
->  $\color{red}{\textsf{Draft note:}}$ -> DeliveryParty / contact -osio hyödyllinen. Voidaan välittää toimituksen vastaanottajan yhteystiedot. (Buyer -osiossa käytännössä vain tilaajan yhteystiedot
-
-
-- [cac:Shipment](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-Shipment/) / [cbc:ShippingPriorityLevelCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-Shipment/cbc-ShippingPriorityLevelCode/) can be used to indicate if a shipment is required to be made quickly.  
-  - *Transport service priority code (UNCL4219)* codelist must be used  
-
-- [cac:Shipment](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-Shipment/) / [cac:TransportHandlingUnit]() / [cbc:ShippingMarks]() is used for **SSCC information** that is printed on the transport handling unit.  
-  - This is on the whole order level
-  - Text to be written on shipping labels
+Delivery details are shared on the order line level. (The address details to order lines will be added to Peppol syntax shortly).
 
 - [cac:DeliveryTerms](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-DeliveryTerms/) structure is used for **Incoterms**.  
 
@@ -612,9 +573,9 @@ The delivery information can be stated at the whole order level or on the order 
 - [cbc:AccountingCost](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cbc-AccountingCost/) is used for a reference that is wanted to be repeated on the invoice.  
   - This can be for example a reference to the instalment.  
 
-- Use the [cac:Delivery](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Delivery/) structure on the order line level for concrete elements that are not part of pre-made-deliveries.  
+- Use the [cac:Delivery](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Delivery/) structure on the order line level for concrete elements. 
 
-- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the identifier of the delivery location.  
+- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Delivery/cbc-ID/) is the identifier of the delivery location.  
   - This can for example be a **GLN** of the construction site or a place inside of the construction site.  
   -  is not mandatory, but the code for GLN is **0088**.  
   - A request has been made to **OpenPeppol** to add also delivery address details on order line level. Currently they are not supported.  
