@@ -41,6 +41,92 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
 
 ### 2.1 Käyttötapaukset ja toteutus
 
+h2>Käyttötapaukset pilotissa</h2>
+<h2>Käyttötapaukset & toteutus</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
+
+  <thead>
+    <tr>
+      <th style="width:220px;">Käyttötapaukset</th>
+      <th colspan="2">Kuvaus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Tiedonkantajien määrä</strong></td>
+      <td colspan="2">
+        Testataan tiedonkantajien (esim. passiivisten UHF RFID -tunnisteiden) toimivuutta yli sadan (100) elementin otannalla.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Tagin sijoittelu</strong></td>
+      <td>
+        Testataan, miten tiedonkantajan (esim. RFID-tagien) eri sijoittelut elementeissä vaikuttavat luettavuuteen.<br><br>
+        <strong>Asennussijainnit:</strong>
+        <ul>
+          <li>Kokeillaan erilaisia variaatioita huomioiden aiemman pilotoinnin tulokset antennien lukusuunnan osalta</li>
+        </ul>
+        <strong>Kiinnitystavat:</strong>
+        <ul>
+          <li>Kokeillaan erilaisia variaatioita riippuen tiedonkantajasta ja elementistä</li>
+        </ul>
+        <strong>RFID-piirin orientaatio:</strong>
+        <ul>
+          <li>RFID-piiri edullisessa lukusuunnassa XY</li>
+          <li>RFID-piiri epäedullisessa lukusuunnassa YZ ja XZ</li>
+        </ul>
+      </td>
+     <td><img width="394" height="229" alt="image" src="https://github.com/user-attachments/assets/571881fa-b1a7-44dc-a68b-fde2822cd959" /></td>
+    </tr>
+    <tr>
+      <td><strong>Ympäristövaikutukset (jos mahdollista)</strong></td>
+      <td colspan="2">
+        Tutkitaan ulkoisten tekijöiden vaikutus (kosteus, lämpötila ja mekaaninen rasitus) RFID-tagien toimintaan ja kestävyyteen.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="3" style="text-align:left;">Testattavat osiot</th>
+    </tr>
+    <tr>
+      <td><strong>Piirin enkoodaus</strong></td>
+      <td colspan="2">
+        Piirille / 2D viivakoodiin enkoodataan BETK vakiotiedot elementin minimivaatimukset
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Lukutarkastus</strong></td>
+      <td>
+        <ul>
+          <li>Luetaan tiedonkantaja ja varmistetaan toimivuus</li>
+          <li>Luennan toimivuus</li>
+          <li>Luenta etäisyys lukijan ja RFID-piirin välillä</li>
+          <li>Luenta voimakkuus / taajuus</li>
+          <li>Huomioitava elementin kosteus (mitattava jos mahdollista)</li>
+        </ul>
+      </td>
+      <td style="width:220px;">
+        <img width="283" height="229" alt="image" src="https://github.com/user-attachments/assets/432f8995-e5ad-48c3-b697-d0cee8c3d454" />
+      </td>
+    </tr>
+    <tr>
+      <td><strong>RFID-piirin asennuspaikat</strong></td>
+      <td colspan="2">
+        <ul>
+          <li>Ohessa esimerkki tavasta dokumentoida mihin RFID-piiri elementissä on asennettu</li>
+          <li>Dokumentaatiossa ei tarvitse esittää varsinaista elementtikuvaa, koska tärkein tieto on missä nurkassa ja pinnassa piiri on</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <img src="https://github.com/user-attachments/assets/6607bf2a-51a9-406c-bf54-31dbf730a035" /> <br>
+        <em>Kuva 1. Havainne kuva RFID-piirin sijoituksesta</em>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <h2>Käyttötapaukset pilotissa</h2>
 
 <table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
