@@ -25,9 +25,10 @@ Pilotoitavat osakokonaisuudet perustuvat Rakennusteollisuus RT:n BETK-toimituske
 </details>
 
 1. [Suunnittelu](#1-suunnittelu)
-   
+2. [Tapahtumatiedon jakaminen toimitusketjussa](#2-tapahtumatiedon-jakaminen-toimitusketjussa)
 
 ---
 
 ## 1. Suunnittelu
 
+## 2. Tapahtumatiedon jakaminen toimitusketjussa
