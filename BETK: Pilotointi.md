@@ -32,3 +32,5 @@ Pilotoitavat osakokonaisuudet perustuvat Rakennusteollisuus RT:n BETK-toimituske
 ## 1. Suunnittelu
 
 ## 2. Tapahtumatiedon jakaminen toimitusketjussa
+Pilotin aiheena on testata ja arvioida BETK-työryhmässä vakioitujen GS1-toimitusketjustandardeihin perustuvien koneluettavien tietomäärittelyiden sekä rakenteellisessa muodossa jaettavien tapahtumatietojen (GS1 EPCIS) tiedonsiirron toimintamallien toimivuutta toimitusketjun eri vaiheissa.
+
