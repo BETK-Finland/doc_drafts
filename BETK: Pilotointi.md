@@ -14,6 +14,7 @@ Pilotoinnin tavoitteena on tuottaa luotettavaa tietoa ratkaisun toimivuudesta, v
 
 Pilotoitavat osakokonaisuudet perustuvat Rakennusteollisuus RT:n BETK-toimitusketjutyöryhmän tunnistettuihin kehitysaihioihin. Pilotin odotetaan edistävän rakennusalan toimitusketjujen digitaalisen hallinnan kehitystä ja tukevan alan systeemistä muutosta kohti tehokkaampaa ja läpinäkyvämpää toimintaympäristöä. Toimitusketjun testauksen tulokset dokumentoidaan, analysoidaan ja julkaistaan avoimesti rakennusalan toimijoiden käyttöön sekä suomeksi että englanniksi. 
 
+Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havainnot. Dokumentoinnin tavoitteena on mahdollistaa tulosten hyödyntämisen alan kehityksen edistämisessä.
 
 <details> 
 <Summary>Asiakirjan versio</Summary>
@@ -40,19 +41,20 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
 
 ### 2.1 Käyttötapaukset ja toteutus
 
-Dokumentointi
-Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havainnot. Dokumentoinnin tavoitteena on mahdollistaa tulosten hyödyntämisen alan kehityksen edistämisessä.
-Dokumentoinnin vaiheet:
-1. Pilotointisuunnitelma: Yksityiskohtainen suunnitelma, sisältää pilotoinnin tavoitteet, pilotointien kuvaukset, aikataulun ja vastuuhenkilöt.
-2.	Tunnisteteknologian ja tiedonsiirron menetelmien kirjaaminen: Dokumentoidaan pilotissa testatut tiedonkantajat ja lukijat, sekä niiden tekniset tiedot. Dokumentoidaan pilotissa testatut tiedonsiirron menetelmät.
-3.	Tuotetietojen kirjaaminen: Dokumentoidaan pilottiin sisältyvien tuotteiden informaatio sisältö koneluettavassa muo-dossa.
-4.	Suunnitteluprosessin kuvaus: Dokumentoidaan tiedonkantajien (esim. RFID-piirien) tarkat sijoituspaikat tuotteiden tuotantosuunnitelmiin.
-5.	Asennusprosessin kuvaus: Dokumentoidaan toimitusketjun eri vaiheiden prosessit ja tapahtumat yksityiskohtaisesti (myös. käytetyt menetelmät, tarvikkeet ja työkalut, sijainnit). 
-6.	Luettavuustestit: Dokumentoidaan tiedonkantajien luettavuus eri vaiheissa ja olosuhteissa, mukaan lukien mahdolliset häiriötekijät ja niiden vaikutukset.
-7.	Kenttätestaus: Kirjataan havainnot tiedonkantajien (esim. RFID-piirien) toiminnasta eri toimitusketjun vaiheissa, kuten elementtien valmistuksessa, kuljetuksessa ja asennuksessa. Pyritään hyödyntämään automaattisia portteja (mikäli tie-donkantajana testataan RFID-tunnisteita).
-8.	Tapahtumatieto: Dokumentoidaan ja jaetaan toimitusketjujen lukutapahtumat EPCIS-standardin mukaan.
-9.	Data-analyysi: Analysoidaan kerätty data tiedonkantajien (RFID-piirien) suorituskyvystä ja luettavuudesta, sekä toimi-tusketjussa jaettavan tiedon (tapahtumatiedon) virtauksesta. Laaditaan yhteenveto tuloksista, mukaan lukien mahdolli-set ongelmat ja niiden ratkaisut.
-10.	Raportit: Laaditaan kattava loppuraportti, joka sisältää analyysin tulokset, suositukset ja johtopäätökset pilotoinnin tuloksista.
+### 2.2 Dokumentointi
+
+|#|Dokumentoinnin vaiheet|Sisältö|
+|-|----------------------|-------|
+|1.| Pilotointisuunnitelma | Yksityiskohtainen suunnitelma, sisältää pilotoinnin tavoitteet, pilotointien kuvaukset, aikataulun ja vastuuhenkilöt.|
+|2.|	Tunnisteteknologian ja tiedonsiirron menetelmien kirjaaminen| Dokumentoidaan pilotissa testatut tiedonkantajat ja lukijat sekä niiden tekniset tiedot. Dokumentoidaan pilotissa testatut tiedonsiirron menetelmät.|
+|3.|	Tuotetietojen kirjaaminen| Dokumentoidaan pilottiin sisältyvien tuotteiden informaatiosisältö koneluettavassa muodossa.|
+|4.|	Suunnitteluprosessin kuvaus| Dokumentoidaan tiedonkantajien (esim. RFID-piirien) tarkat sijoituspaikat tuotteiden tuotantosuunnitelmiin.|
+|5.|	Asennusprosessin kuvaus| Dokumentoidaan toimitusketjun eri vaiheiden prosessit ja tapahtumat yksityiskohtaisesti (myös käytetyt menetelmät, tarvikkeet ja työkalut, sijainnit).| 
+|6.|	Luettavuustestit|: Dokumentoidaan tiedonkantajien luettavuus eri vaiheissa ja olosuhteissa, mukaan lukien mahdolliset häiriötekijät ja niiden vaikutukset.|
+|7.|	Kenttätestaus|: Kirjataan havainnot tiedonkantajien (esim. RFID-piirien) toiminnasta eri toimitusketjun vaiheissa, kuten elementtien valmistuksessa, kuljetuksessa ja asennuksessa. Pyritään hyödyntämään automaattisia portteja (mikäli tie-donkantajana testataan RFID-tunnisteita).|
+|8.|	Tapahtumatieto|: Dokumentoidaan ja jaetaan toimitusketjujen lukutapahtumat EPCIS-standardin mukaan.|
+|9.|	Data-analyysi|: Analysoidaan kerätty data tiedonkantajien (RFID-piirien) suorituskyvystä ja luettavuudesta sekä toimitusketjussa jaettavan tiedon (tapahtumatiedon) virtauksesta. Laaditaan yhteenveto tuloksista, mukaan lukien mahdolliset ongelmat ja niiden ratkaisut.|
+|10.|	Raportit|: Laaditaan kattava loppuraportti, joka sisältää analyysin tulokset, suositukset ja johtopäätökset pilotoinnin tuloksista.|
 
 
 
