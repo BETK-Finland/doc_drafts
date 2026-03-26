@@ -83,7 +83,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
   </thead>
   <tbody>
     <tr>
-      <td><img src="factory.png" style="max-width:100px;"></td>
+      <td><img src="https://github.com/user-attachments/assets/e1cfdbab-6a3e-4dd4-9fe3-3f6f5ef05f68" style="max-width:100px;"></td>
       <td><strong>Elementin valmistus tehtaalla</strong></td>
       <td>
         Kuka: (GLN) Elementtitoimittaja<br>
@@ -95,7 +95,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
       </td>
     </tr>
     <tr>
-      <td><img src="loading.png" style="max-width:100px;"></td>
+      <td><img src="https://github.com/user-attachments/assets/e6c24d12-0349-4cdf-b575-36aab6f6ec41" style="max-width:100px;"></td>
       <td><strong>Elementin lastaus tehtaalla</strong></td>
       <td>
         Kuka: (GLN) Elementtitoimittaja<br>
@@ -107,7 +107,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
       </td>
     </tr>
     <tr>
-      <td><img src="delivery.png" style="max-width:100px;"></td>
+      <td><img src="https://github.com/user-attachments/assets/ff35d6e3-ec2a-4bbd-a29d-277faa06f17f" style="max-width:100px;"></td>
       <td><strong>Elementin vastaanotto työmaalla</strong></td>
       <td>
         Kuka: (GLN) Pääurakoitsija<br>
@@ -119,7 +119,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
       </td>
     </tr>
     <tr>
-      <td><img src="installation.png" style="max-width:100px;"></td>
+      <td><img src="https://github.com/user-attachments/assets/d42a6085-85ad-426b-8be0-fdcb85776584" style="max-width:100px;"></td>
       <td><strong>Elementin asennus työmaalla</strong></td>
       <td>
         Kuka: (GLN) Pääurakoitsija<br>
@@ -131,7 +131,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
       </td>
     </tr>
     <tr>
-      <td><img src="inspection.png" style="max-width:100px;"></td>
+      <td><img src="https://github.com/user-attachments/assets/0068e5c9-b500-48e6-a84e-84b87e2f8fd2" style="max-width:100px;"></td>
       <td><strong>Elementin elinkaaren aikainen tarkastus</strong></td>
       <td>
         Kuka: (GLN) Rakennuksen omistaja<br>
