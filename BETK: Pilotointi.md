@@ -41,28 +41,25 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
 
 ### 2.1 Käyttötapaukset ja toteutus
 
-<h2>Käyttötapaukset pilotissa 2</h2>
+<h2>Käyttötapaukset pilotissa</h2>
 
 <table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
   <thead>
     <tr>
-      <th style="width:120px;">Kuva</th>
-      <th style="width:200px;">Osa-alue</th>
+      <th colspan="2" style="width:200px;">Osa-alue</th>
       <th>Kuvaus</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td></td>
-      <td>Tiedonkantajien luenta</td>
+      <td colspan="2" style="width:200px;">Tiedonkantajien luenta</td>
       <td>
         Testataan tiedonkantajien (passiivisten UHF RFID -tunnisteiden sekä DataMatrix + GS1 Digital Link 2D -viivakoodien)
         toimivuutta elementtien toimitusketjun eri vaiheissa
       </td>
     </tr>
     <tr>
-      <td></td>
-      <td>EPCIS-standardi</td>
+      <td colspan="2" style="width:200px;">EPCIS-standardi</td>
       <td>
         GS1 EPCIS mahdollistaa tapahtumatietojen tallentamisen ja jakamisen tuotteiden ja sijaintien muutoksista toimitusketjussa.
         Määrittelee tiedon koodauksen ja kommunikoinnin eri osapuolten välillä. RFID/EPC yksilöi elementit
@@ -70,10 +67,6 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
       </td>
     </tr>
   </tbody>
-</table>
-<br>
-<h2>Tapahtumat toimitusketjussa</h2>
-<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
   <thead>
     <tr>
       <th style="width:120px;">Kuva</th>
