@@ -41,7 +41,17 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
 
 ### 2.1 Käyttötapaukset ja toteutus
 
-### 2.2 Dokumentointi
+### 2.2 Aikataulu
+| TEHTÄVÄ                                   | QX | QX | QX | QX | QX |
+|-------------------------------------------|----|----|----|----|----|
+| Esivalmistelu                             |    |    |    |    |    |
+| Osapuolien kontaktointi                   | X  | X  |    |    |    |
+| Pilotointisuunnitelman päivitykset        | X  | X  |    |    |    |
+| Pilotointivalmistelut                     |    | X  | X  |    |    |
+| Testausvaihe                              |    |    | X  | X  | X  |
+| Raportointi ja tulosten analysointi       |    |    | X  | X  | X  |
+
+### 2.3 Dokumentointi
 
 |#|Dokumentoinnin vaiheet|Sisältö|
 |-|----------------------|-------|
