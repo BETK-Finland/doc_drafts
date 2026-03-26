@@ -41,6 +41,110 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
 
 ### 2.1 Käyttötapaukset ja toteutus
 
+<h2>Käyttötapaukset pilotissa 2</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th style="width:120px;">Kuva</th>
+      <th style="width:200px;">Osa-alue</th>
+      <th>Kuvaus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Tiedonkantajien luenta</td>
+      <td>
+        Testataan tiedonkantajien (passiivisten UHF RFID -tunnisteiden sekä DataMatrix + GS1 Digital Link 2D -viivakoodien)
+        toimivuutta elementtien toimitusketjun eri vaiheissa
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>EPCIS-standardi</td>
+      <td>
+        GS1 EPCIS mahdollistaa tapahtumatietojen tallentamisen ja jakamisen tuotteiden ja sijaintien muutoksista toimitusketjussa.
+        Määrittelee tiedon koodauksen ja kommunikoinnin eri osapuolten välillä. RFID/EPC yksilöi elementit
+        <br>• Testataan lukutapahtumien jakamista EPCIS-standardin mukaan
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2>Tapahtumat toimitusketjussa</h2>
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th style="width:120px;">Kuva</th>
+      <th>Vaihe</th>
+      <th>Tiedot</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="factory.png" style="max-width:100px;"></td>
+      <td><strong>Elementin valmistus tehtaalla</strong></td>
+      <td>
+        Kuka: (GLN) Elementtitoimittaja<br>
+        Mitä: (SGTIN) Betonielementti<br>
+        Missä: (GLN) Tehdas<br>
+        Milloin: YYYY-MM-DDThh:mm:ssZ<br>
+        Miksi: Valmistus<br>
+        Status: Aktiivinen
+      </td>
+    </tr>
+    <tr>
+      <td><img src="loading.png" style="max-width:100px;"></td>
+      <td><strong>Elementin lastaus tehtaalla</strong></td>
+      <td>
+        Kuka: (GLN) Elementtitoimittaja<br>
+        Mitä: (SSCC) Kuorma + (SGTIN1..n) Betonielementit<br>
+        Missä: (GLN) Tehdas<br>
+        Milloin: YYYY-MM-DDThh:mm:ssZ<br>
+        Miksi: Kuormaus<br>
+        Status: Kuljetuksessa
+      </td>
+    </tr>
+    <tr>
+      <td><img src="delivery.png" style="max-width:100px;"></td>
+      <td><strong>Elementin vastaanotto työmaalla</strong></td>
+      <td>
+        Kuka: (GLN) Pääurakoitsija<br>
+        Mitä: (SSCC) Kuorma + (SGTIN1..n) Betonielementit<br>
+        Missä: (GLN) Työmaa<br>
+        Milloin: YYYY-MM-DDThh:mm:ssZ<br>
+        Miksi: Vastaanotto<br>
+        Status: Vastaanotettu
+      </td>
+    </tr>
+    <tr>
+      <td><img src="installation.png" style="max-width:100px;"></td>
+      <td><strong>Elementin asennus työmaalla</strong></td>
+      <td>
+        Kuka: (GLN) Pääurakoitsija<br>
+        Mitä: (SGTIN) Betonielementti<br>
+        Missä: (GLN) Työmaa + tarkenne<br>
+        Milloin: YYYY-MM-DDThh:mm:ssZ<br>
+        Miksi: Asentaminen<br>
+        Status: Asennettu
+      </td>
+    </tr>
+    <tr>
+      <td><img src="inspection.png" style="max-width:100px;"></td>
+      <td><strong>Elementin elinkaaren aikainen tarkastus</strong></td>
+      <td>
+        Kuka: (GLN) Rakennuksen omistaja<br>
+        Mitä: (SGTIN) Betonielementti<br>
+        Missä: (GLN) Rakennus + tarkenne<br>
+        Milloin: YYYY-MM-DDThh:mm:ssZ<br>
+        Miksi: Elinkaarentapahtuma X<br>
+        Status: Tapahtuma X
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.2 Aikataulu
 | TEHTÄVÄ                                   | QX | QX | QX | QX | QX |
 |-------------------------------------------|----|----|----|----|----|
