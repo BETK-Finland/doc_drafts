@@ -43,7 +43,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
 Dokumentointi
 Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havainnot. Dokumentoinnin tavoitteena on mahdollistaa tulosten hyödyntämisen alan kehityksen edistämisessä.
 Dokumentoinnin vaiheet:
-> 1.	Pilotointisuunnitelma: Yksityiskohtainen suunnitelma, sisältää pilotoinnin tavoitteet, pilotointien kuvaukset, aikataulun ja vastuuhenkilöt.
+1. Pilotointisuunnitelma: Yksityiskohtainen suunnitelma, sisältää pilotoinnin tavoitteet, pilotointien kuvaukset, aikataulun ja vastuuhenkilöt.
 2.	Tunnisteteknologian ja tiedonsiirron menetelmien kirjaaminen: Dokumentoidaan pilotissa testatut tiedonkantajat ja lukijat, sekä niiden tekniset tiedot. Dokumentoidaan pilotissa testatut tiedonsiirron menetelmät.
 3.	Tuotetietojen kirjaaminen: Dokumentoidaan pilottiin sisältyvien tuotteiden informaatio sisältö koneluettavassa muo-dossa.
 4.	Suunnitteluprosessin kuvaus: Dokumentoidaan tiedonkantajien (esim. RFID-piirien) tarkat sijoituspaikat tuotteiden tuotantosuunnitelmiin.
