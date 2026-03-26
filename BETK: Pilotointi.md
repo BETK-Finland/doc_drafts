@@ -138,6 +138,10 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
   </tbody>
 </table>
 
+**AIDC teknologian mahdolliset tunnistetut haasteet**
+RFID-piirien osalta mahdollisena tunnistettuna haasteena betonielementtiin upotettuna on RFID-tunnisteen antennin suuntauksen ja lukuetäisyyden rajoitteet RFID-tunnisteiden luennassa automaattisten porttien läpi. Tiedonkantajien luentatapahtumien toteuttaminen prosessissa vaatii osapuolten sitoutumista tehtävän suorittamiseen, vaikka lähtökohtaisesti lukutapahtumat toteutettaisiin automaattisten porttien kautta. Koska tärkeää on saada määrällistä dataa, yksittäisen staattisen pisteen merkitys lukutapahtumien tuottamisessa on tärkeä (elementtitehtaalle asennettava kiinteä portti, elementtirekka ja GPS-geoaidat työmaalla).
+
+
 ### 2.2 Aikataulu
 | TEHTÄVÄ                                   | QX | QX | QX | QX | QX |
 |-------------------------------------------|----|----|----|----|----|
