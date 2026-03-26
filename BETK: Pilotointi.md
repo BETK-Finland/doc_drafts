@@ -55,7 +55,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
       <td colspan="2" style="width:200px;">Tiedonkantajien luenta</td>
       <td>
         Testataan tiedonkantajien (passiivisten UHF RFID -tunnisteiden sekä DataMatrix + GS1 Digital Link 2D -viivakoodien)
-        toimivuutta elementtien toimitusketjun eri vaiheissa
+        toimivuutta elementtien toimitusketjun eri vaiheissa. Tarkasteltava vaihe voi olla myös osaprosessi (esim. elementtitehtaan sisäinen portti varastoalueelle elementin siirron yhteydessä)
       </td>
     </tr>
     <tr>
