@@ -9,7 +9,7 @@ Status: Luonnos
 
 ## Asiakirjan tiedot
 
-Pilotointisuunnitelma perustuu modulaariseen lähestymistapaan ja jakautuu selkeästi tunnistettuihin osakokonaisuuksiin, joita voidaan pilotoida joko itsenäisesti tai osana laajempaa kokonaisuutta. 
+Pilotointisuunnitelma perustuu modulaariseen lähestymistapaan ja jakautuu selkeästi tunnistettuihin osakokonaisuuksiin, joita voidaan pilotoida joko itsenäisesti tai osana laajempaa avoimen toimintaympäristön kokonaisuutta. 
 Pilotoinnin tavoitteena on tuottaa luotettavaa tietoa ratkaisun toimivuudesta, vaikuttavuudesta ja kehitystarpeista aidossa toimintaympäristössä.
 
 Pilotoitavat osakokonaisuudet perustuvat Rakennusteollisuus RT:n BETK-toimitusketjutyöryhmän tunnistettuihin kehitysaihioihin. Pilotin odotetaan edistävän rakennusalan toimitusketjujen digitaalisen hallinnan kehitystä ja tukevan alan systeemistä muutosta kohti tehokkaampaa ja läpinäkyvämpää toimintaympäristöä. Toimitusketjun testauksen tulokset dokumentoidaan, analysoidaan ja julkaistaan avoimesti rakennusalan toimijoiden käyttöön sekä suomeksi että englanniksi. 
@@ -37,7 +37,7 @@ Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havai
 ## 2. Tapahtumatiedon jakaminen toimitusketjussa
 Pilotin aiheena on testata ja arvioida BETK-työryhmässä vakioitujen GS1-toimitusketjustandardeihin perustuvien koneluettavien tietomäärittelyiden sekä rakenteellisessa muodossa jaettavien tapahtumatietojen (GS1 EPCIS) tiedonsiirron toimintamallien toimivuutta toimitusketjun eri vaiheissa.
 
-Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistamisen toteutusta fyysisten tuotteiden toimitusketjussa hyödyntäen koneellisesti luettavia standardoituja menetelmiä, kuten 2D-viivakoodeja ja RFID-teknologiaa. Toimitusketjun eeri vaiheissa syntyvien lukutapahtumien keruu ja jakaminen GS1 EPCIS -standardin mukaisesti. Pilotin laajuus on suunniteltu kattavaksi, jotta määrällinen data-analyysi voidaan suorittaa riittävän suurella tarkasteltavien tuotteiden joukolla (noin 100 tuotetta). 
+Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistamisen toteutusta fyysisten tuotteiden toimitusketjussa hyödyntäen koneellisesti luettavia standardoituja menetelmiä, kuten 2D-viivakoodeja ja RFID-teknologiaa. Toimitusketjun eri vaiheissa syntyvien lukutapahtumien keruu ja jakaminen GS1 EPCIS-standardin mukaisesti. Pilotin laajuus on suunniteltu kattavaksi, jotta määrällinen data-analyysi voidaan suorittaa riittävän suurella tarkasteltavien tuotteiden joukolla (noin 100 tuotetta). 
 
 ### 2.1 Käyttötapaukset ja toteutus
 
@@ -81,7 +81,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
     <tr>
       <td><strong>Ympäristövaikutukset (jos mahdollista)</strong></td>
       <td colspan="2">
-        Tutkitaan ulkoisten tekijöiden vaikutus (kosteus, lämpötila ja mekaaninen rasitus) RFID-tagien toimintaan ja kestävyyteen.
+        Tutkitaan ulkoisten tekijöiden vaikutusta (kosteus, lämpötila ja mekaaninen rasitus) RFID-tagien toimintaan ja kestävyyteen.
       </td>
     </tr>
     <tr>
