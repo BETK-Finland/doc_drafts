@@ -43,9 +43,25 @@ Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havai
 
 ## 1. Suunnitteluvaiheen tietosisältöjen pilotointi
 
-BIM BOM
+Suunnitteluvaiheen pilotoinnissa keskeisenä tavoitteena on testata, miten tietomallipohjaisesta suunnitteluprosessista voidaan tuottaa vakioitu ja koneluettava osaluettelo (BOM), joka on suoraan hyödynnettävissä toimitusketjun eri tietojärjestelmissä.
 
-BETK vakioidun tietosisällön mallintaminen elementeille ja tietomallin jakamisen pilotti
+Pilotointi perustuu Rakennusteollisuus RT:n BETK-työryhmän laatimaan soveltamisohjeeseen Tarjousvaiheen tietomääritykset ja toteutusvaiheen tietomalliohjeet toimitusketjulle. Kyseinen ohje määrittelee ne tietosisällöt ja ominaisuustiedot, joiden avulla betonielementit voidaan tunnistaa, luokitella ja käsitellä koneluettavasti eri hankkeiden välillä. Pilotissa näitä määrittelyjä sovelletaan käytännössä ja arvioidaan niiden toimivuutta osana digitaalista toimitusketjua.
+
+Pilotissa tarkastellaan mallinnusprosessia kokonaisuutena siten, että suunnittelijan tuottama tietomalli toimii rakenteisena tietolähteenä, josta voidaan muodostaa toimitusketjun tarvitsema tuotetieto ilman manuaalista tulkintaa. Erityinen painopiste on siinä, missä määrin tietomalliin sisällytetyt vakioidut ominaisuustiedot mahdollistavat osaluettelon (BOM) automaattisen muodostamisen.
+
+BETK-soveltamisohjeen mukaisesti pilotissa hyödynnettävät keskeiset tietosisällöt liittyvät elementtien yksiselitteiseen tunnistamiseen ja kuvaamiseen. Näitä ovat muun muassa kokoonpanon tyyppi (esimerkiksi betonielementti), elementtityyppi (koodi ja kuvaus), sekä elementin tekniset ominaisuudet, kuten raudoitus, pintakäsittely ja mahdollinen väribetoni. Lisäksi pilotissa tarkastellaan täydentäviä ominaisuuksia, kuten vähähiilisyystietoa, tyyppielementtimäärittelyä sekä asennukseen liittyviä erityispiirteitä, kuten työmaalla käännettävyyttä.
+
+Näiden tietojen keskeinen merkitys pilotissa on se, että ne muodostavat perustan BOM-rakenteelle. Tavoitteena on varmistaa, että tietomallista voidaan johdonmukaisesti muodostaa osaluettelo, jossa elementit voidaan ryhmitellä, tunnistaa ja siirtää eteenpäin ilman hankekohtaisia tulkintoja tai erillisiä manuaalisia rikastamisvaiheita. Tämä on merkittävä muutos nykytilaan, jossa tietomallien hyödyntäminen edellyttää usein asiantuntijatulkintaa.
+
+Pilotissa testataan käytännössä prosessia, jossa IFC-muotoinen tietomalli sisältää BETK-määrittelyjen mukaiset ominaisuustiedot, ja tästä tietomallista muodostetaan vakioitu BOM. Tämän jälkeen arvioidaan, miten BOM voidaan siirtää ja hyödyntää toimitusketjun eri järjestelmissä, kuten hankinnan, tuotannon ja logistiikan ratkaisuissa.
+
+Tietosisällön laadun ja yhdenmukaisuuden varmistamiseksi pilotissa hyödynnetään IDS-määrityksiä (Information Delivery Specification). IDS toimii validointimekanismina, jonka avulla voidaan määritellä vaadittavat tietokentät ja niiden sallitut arvot sekä tarkistaa, että tietomalli täyttää nämä vaatimukset ennen BOM:n muodostamista. Näin varmistetaan, että tietomallista johdettu tieto on rakenteellisesti oikeellista ja yhteentoimivaa eri järjestelmien välillä.
+
+Pilotoinnissa kiinnitetään erityistä huomiota siihen, missä määrin vakioidut tietosisällöt mahdollistavat elementtien koneluettavan tunnistamisen ilman hankekohtaisia nimeämiskäytäntöjä. Tämä liittyy suoraan BETK-ohjeessa tunnistettuun nykytilan haasteeseen, jossa elementtityyppien tunnistaminen perustuu usein projektikohtaisiin tunnisteisiin, eikä ole automatisoitavissa.
+
+Lisäksi pilotissa arvioidaan, miten suunnitteluvaiheen tietosisältö kytkeytyy toimitusketjun myöhempiin vaiheisiin. Erityisesti tarkastellaan, voidaanko BOM-rakenteen kautta muodostettu tuotetieto yhdistää tuotteiden yksilöintiin sekä toimitusketjun tapahtumatietoon (EPCIS). Tavoitteena on luoda yhtenäinen tietovirta suunnittelusta toteutukseen ja edelleen elinkaaren aikaiseen tiedonhallintaan.
+
+Pilotin tuloksena muodostetaan kokonaiskuva siitä, millä edellytyksillä BETK-soveltamisohjeen mukainen tietosisältö mahdollistaa tietomallipohjaisen BOM:n muodostamisen sekä sen hyödyntämisen toimitusketjun digitaalisissa prosesseissa. Samalla tunnistetaan mahdolliset puutteet tietosisällöissä, mallinnusohjeissa tai käytännön toteutuksessa, ja esitetään suositukset jatkokehitystä varten.
 ---
 
 ## 2. Tapahtumatiedon jakaminen toimitusketjussa
