@@ -289,4 +289,54 @@ Tapahtumat voidaan validoida EPCIS 2.0 -standardin mukaisilla JSON-skeemoilla en
 
 ## 3. Transaktiotiedonvaihto Peppol-verkossa
 
-Pilotin aiheena on testata hankinta-toimitusketjussa Peppol-sanomavälitystä tilaajan ja myyjän välisessä kommunikaatiossa.
+Pilotin tavoitteena on testata hankinta-toimitusketjussa tapahtuvaa sanomavälitystä hyödyntäen Peppol-verkkoa tilaajan ja toimittajan välisessä kommunikaatiossa. Pilotissa keskitytään erityisesti Peppol BIS -sanomien välitykseen ja niiden muodostamaan sanomakoreografiaan todellisessa toimintaympäristössä.
+
+---
+
+### 3.1 Pilotin soveltamisala
+
+Pilotissa testataan seuraavia vaihtoehtoisia sanomakokonaisuuksia:
+
+- Catalogue (Peppol BIS Catalogue)
+- Catalogue Response
+- Order (Peppol BIS Order)
+- Order Response
+- (valinnainen) Despatch Advice
+- (valinnainen) Receipt Advice
+
+---
+
+### 3.2 Käyttötapaukset ja toteutus
+
+Pilotissa testataan seuraavat osa-alueet:
+
+#### Sanomien muodostus ja validointi
+- Sanomien muodostaminen Peppol BIS -määritysten mukaisesti  
+- Sanomien validointi ennen lähetystä  
+
+#### Sanomien välitys
+- Sanomien siirto Peppol Access Point -verkoston kautta  
+- Osapuolten tunnistaminen Peppol Participant ID -tunnisteilla  
+
+#### Sanomakoreografia
+- Tilausprosessin eteneminen Order → Order Response -ketjussa  
+- Sanomien keskinäinen looginen riippuvuus ja oikea ajoitus  
+
+#### Integraatio liiketoimintaprosesseihin
+- Sanomien kytkeytyminen osapuolten toiminnanohjausjärjestelmiin (ERP)  
+- Manuaalisten työvaiheiden väheneminen  
+
+### 3.3 Arvioitavat tulokset
+
+Pilotissa arvioidaan:
+
+- Peppol-sanomien tekninen toimivuus eri järjestelmien välillä  
+- Sanomien semanttinen yhteentoimivuus (tulkinnan yhdenmukaisuus)  
+- Prosessin sujuvuus ja läpimenoaika  
+- Mahdolliset puutteet tai kehitystarpeet sanomasisällöissä  
+
+### 3.4 Yhteys EPCIS-tapahtumatietoon (suositeltu)
+
+Peppol-sanomien pilotointi toteutetaan yhteensopivasti EPCIS-pohjaisen tapahtumatiedon kanssa siten, että tilaus- ja toimitustapahtumat voidaan tarvittaessa linkittää toimitusketjun tapahtumadataan.
+
+Tämä mahdollistaa transaktio- ja tapahtumatiedon yhdistämisen yhtenäiseksi näkymäksi toimitusketjun eri vaiheista.
