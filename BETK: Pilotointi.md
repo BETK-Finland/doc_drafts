@@ -32,6 +32,9 @@ Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havai
 
 ## 1. Suunnitteluvaiheen tietosisältöjen pilotointi
 
+BIM BOM
+
+BETK vakioidun tietosisällön mallintaminen elementeille ja tietomallin jakamisen pilotti
 ---
 
 ## 2. Tapahtumatiedon jakaminen toimitusketjussa
