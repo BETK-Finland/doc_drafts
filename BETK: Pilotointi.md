@@ -126,23 +126,28 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
   </tbody>
 </table>
 
-<h2>Käytettävät tiedonkantajat ja tunnistus teknologia</h2>
-<table>
- <thead>
-  <tr colspan="4">Testiympäristö X</tr>
-  <tr>
-     <td>Laite/tuote</td>
-     <td>Valmistaja</td>
-     <td>Käyttötarkoitus/tekniset tiedot</td>
-     <td>Määrä (kpl)</td>
-  </tr>
-  <tr>
-     <td></td>
-     <td></td>
-     <td></td>
-     <td></td>
-  </tr
- </thead>
+<h2>Käytettävät tiedonkantajat ja tunnistusteknologia</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th colspan="4">Testiympäristö X</th>
+    </tr>
+    <tr>
+      <th>Laite/tuote</th>
+      <th>Valmistaja</th>
+      <th>Käyttötarkoitus / tekniset tiedot</th>
+      <th>Määrä (kpl)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
 </table>
 
 <h2>Käyttötapaukset pilotissa</h2>
