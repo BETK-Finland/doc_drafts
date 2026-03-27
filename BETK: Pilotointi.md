@@ -43,25 +43,72 @@ Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havai
 
 ## 1. Suunnitteluvaiheen tietosisältöjen pilotointi
 
-Suunnitteluvaiheen pilotoinnissa keskeisenä tavoitteena on testata, miten tietomallipohjaisesta suunnitteluprosessista voidaan tuottaa vakioitu ja koneluettava osaluettelo (BOM), joka on suoraan hyödynnettävissä toimitusketjun eri tietojärjestelmissä.
+### 1.1 Tavoite ja lähtökohta
 
-Pilotointi perustuu Rakennusteollisuus RT:n BETK-työryhmän laatimaan soveltamisohjeeseen Tarjousvaiheen tietomääritykset ja toteutusvaiheen tietomalliohjeet toimitusketjulle. Kyseinen ohje määrittelee ne tietosisällöt ja ominaisuustiedot, joiden avulla betonielementit voidaan tunnistaa, luokitella ja käsitellä koneluettavasti eri hankkeiden välillä. Pilotissa näitä määrittelyjä sovelletaan käytännössä ja arvioidaan niiden toimivuutta osana digitaalista toimitusketjua.
+Suunnitteluvaiheen pilotoinnin tavoitteena on testata, voidaanko tietomallipohjaisessa suunnitteluprosessissa tuottaa vakioitu, koneluettava ja toimitusketjun tietojärjestelmissä suoraan hyödynnettävä osaluettelo (BOM) ilman manuaalista tiedon tulkintaa tai rikastamista.
 
-Pilotissa tarkastellaan mallinnusprosessia kokonaisuutena siten, että suunnittelijan tuottama tietomalli toimii rakenteisena tietolähteenä, josta voidaan muodostaa toimitusketjun tarvitsema tuotetieto ilman manuaalista tulkintaa. Erityinen painopiste on siinä, missä määrin tietomalliin sisällytetyt vakioidut ominaisuustiedot mahdollistavat osaluettelon (BOM) automaattisen muodostamisen.
+Pilotointi perustuu Rakennusteollisuus RT:n BETK-työryhmän soveltamisohjeeseen, jossa määritellään tarjousvaiheessa käytettävät tietosisällöt sekä niiden vakioidut arvot. Pilotissa näitä määrittelyjä sovelletaan käytännössä siten, että tietosisältö tuotetaan jo mallinnusvaiheessa rakenteisena ja yhtenäisenä.
 
-BETK-soveltamisohjeen mukaisesti pilotissa hyödynnettävät keskeiset tietosisällöt liittyvät elementtien yksiselitteiseen tunnistamiseen ja kuvaamiseen. Näitä ovat muun muassa kokoonpanon tyyppi (esimerkiksi betonielementti), elementtityyppi (koodi ja kuvaus), sekä elementin tekniset ominaisuudet, kuten raudoitus, pintakäsittely ja mahdollinen väribetoni. Lisäksi pilotissa tarkastellaan täydentäviä ominaisuuksia, kuten vähähiilisyystietoa, tyyppielementtimäärittelyä sekä asennukseen liittyviä erityispiirteitä, kuten työmaalla käännettävyyttä.
+Keskeinen tarkastelun kohde on se, muodostuuko suunnitteluprosessin lopputuloksena tietomalli, josta voidaan johdonmukaisesti johtaa BOM, joka toimii toimitusketjun operatiivisten prosessien lähtötietona.
 
-Näiden tietojen keskeinen merkitys pilotissa on se, että ne muodostavat perustan BOM-rakenteelle. Tavoitteena on varmistaa, että tietomallista voidaan johdonmukaisesti muodostaa osaluettelo, jossa elementit voidaan ryhmitellä, tunnistaa ja siirtää eteenpäin ilman hankekohtaisia tulkintoja tai erillisiä manuaalisia rikastamisvaiheita. Tämä on merkittävä muutos nykytilaan, jossa tietomallien hyödyntäminen edellyttää usein asiantuntijatulkintaa.
+---
 
-Pilotissa testataan käytännössä prosessia, jossa IFC-muotoinen tietomalli sisältää BETK-määrittelyjen mukaiset ominaisuustiedot, ja tästä tietomallista muodostetaan vakioitu BOM. Tämän jälkeen arvioidaan, miten BOM voidaan siirtää ja hyödyntää toimitusketjun eri järjestelmissä, kuten hankinnan, tuotannon ja logistiikan ratkaisuissa.
+### 1.2 Pilotin rajaus ja testattavat osat
 
-Tietosisällön laadun ja yhdenmukaisuuden varmistamiseksi pilotissa hyödynnetään IDS-määrityksiä (Information Delivery Specification). IDS toimii validointimekanismina, jonka avulla voidaan määritellä vaadittavat tietokentät ja niiden sallitut arvot sekä tarkistaa, että tietomalli täyttää nämä vaatimukset ennen BOM:n muodostamista. Näin varmistetaan, että tietomallista johdettu tieto on rakenteellisesti oikeellista ja yhteentoimivaa eri järjestelmien välillä.
+Pilotissa keskitytään BETK-soveltamisohjeen mukaisiin tuotetietoihin, jotka mahdollistavat elementtien yksiselitteisen tunnistamisen ja ryhmittelyn. Näitä ovat erityisesti:
 
-Pilotoinnissa kiinnitetään erityistä huomiota siihen, missä määrin vakioidut tietosisällöt mahdollistavat elementtien koneluettavan tunnistamisen ilman hankekohtaisia nimeämiskäytäntöjä. Tämä liittyy suoraan BETK-ohjeessa tunnistettuun nykytilan haasteeseen, jossa elementtityyppien tunnistaminen perustuu usein projektikohtaisiin tunnisteisiin, eikä ole automatisoitavissa.
+- kokoonpanon tyyppi (esim. betonielementti)  
+- elementtityyppi (koodi ja kuvaus)  
+- raudoitus (koodi ja kuvaus)  
+- pintakäsittely  
+- väribetoni  
+- täydentävät attribuutit (esim. vähähiilisyys, tyyppielementti)
 
-Lisäksi pilotissa arvioidaan, miten suunnitteluvaiheen tietosisältö kytkeytyy toimitusketjun myöhempiin vaiheisiin. Erityisesti tarkastellaan, voidaanko BOM-rakenteen kautta muodostettu tuotetieto yhdistää tuotteiden yksilöintiin sekä toimitusketjun tapahtumatietoon (EPCIS). Tavoitteena on luoda yhtenäinen tietovirta suunnittelusta toteutukseen ja edelleen elinkaaren aikaiseen tiedonhallintaan.
+Näiden tietojen rooli pilotissa on keskeinen, sillä ne muodostavat perustan BOM-rakenteelle ja määrittävät, voidaanko elementit käsitellä koneluettavasti ilman hankekohtaisia tulkintoja.
 
-Pilotin tuloksena muodostetaan kokonaiskuva siitä, millä edellytyksillä BETK-soveltamisohjeen mukainen tietosisältö mahdollistaa tietomallipohjaisen BOM:n muodostamisen sekä sen hyödyntämisen toimitusketjun digitaalisissa prosesseissa. Samalla tunnistetaan mahdolliset puutteet tietosisällöissä, mallinnusohjeissa tai käytännön toteutuksessa, ja esitetään suositukset jatkokehitystä varten.
+---
+
+### 1.3 Käyttötapaukset
+
+Pilotissa toteutetaan seuraavat käyttötapaukset, joiden avulla arvioidaan koko tietovirran toimivuutta:
+
+**Vakioidun tietosisällön tuottaminen natiivimallissa**
+
+Suunnittelija tuottaa tietomallin natiiviohjelmistossa siten, että BETK-määrittelyjen mukaiset tiedot on liitetty mallin objekteihin. Tässä käyttötapauksessa arvioidaan, kuinka hyvin tietosisällöt voidaan tuottaa osana normaalia mallinnusprosessia ilman erillisiä työvaiheita.
+
+**Tietosisällön siirtyminen IFC-muotoon**
+
+Mallista tuotetaan IFC, ja tarkastellaan siirtyvätkö määritellyt ominaisuustiedot oikein Property Set -rakenteisiin. Arvioinnin kohteena on tiedon säilyminen sekä rakenteellisesti että semanttisesti.
+
+**IDS-validointi tietosisällön laadunvarmistuksena**
+
+IFC-malli validoidaan IDS-määrityksiä vasten. Tässä käyttötapauksessa testataan, tunnistaako validointi puuttuvat tai virheelliset tiedot ja voidaanko IDS:ää käyttää systemaattisena laadunvarmistusmekanismina.
+
+**BOM:n muodostaminen IFC-mallista**
+
+Validoidusta IFC-mallista muodostetaan BOM. Tässä arvioidaan, voidaanko osaluettelo muodostaa automaattisesti siten, että elementit ryhmittyvät oikein ja tietosisältö säilyy.
+
+**BOM:n hyödyntäminen toimitusketjussa**
+
+Muodostettua BOM:ia testataan valituissa käyttökohteissa, kuten hankinnan valmistelussa tai tuotannon suunnittelussa. Tarkastelun kohteena on erityisesti manuaalisen työn väheneminen ja tiedon käytettävyys.
+
+**Yhteys tuoteyksilöintiin ja tapahtumatietoon**
+
+Pilotissa arvioidaan, voidaanko BOM-rakenne yhdistää tuoteyksilöintiin ja EPCIS-tapahtumatietoon, jolloin suunnitteluvaiheen tieto toimii perustana koko toimitusketjun tiedonhallinnalle.
+
+---
+
+### 1.4 Toteutus
+
+Pilotin tekninen toteutus perustuu vaiheittaiseen prosessiin, jossa tieto siirtyy suunnittelusta standardimuotoon ja edelleen hyödynnettäväksi.
+
+Prosessi käynnistyy natiivimallista, jossa suunnittelija mallintaa rakennusosat ja syöttää BETK-soveltamisohjeen mukaiset tiedot objektien ominaisuuksiksi. Tietojen tulee olla rakenteisia ja vakioituja, jotta niitä voidaan käsitellä myöhemmissä vaiheissa ilman tulkintaa.
+
+Seuraavassa vaiheessa malli viedään IFC-muotoon. IFC toimii pilotissa yhteisenä tiedonsiirtoformaattina, jossa tietosisällöt esitetään standardoiduissa ominaisuusryhmissä. Tässä vaiheessa keskeistä on, että natiivimallissa tuotettu tieto säilyy muuttumattomana ja ymmärrettävänä.
+
+IFC-malli validoidaan IDS-määritysten avulla ennen jatkokäsittelyä. Validoinnin tarkoituksena on varmistaa, että kaikki vaaditut tietosisällöt ovat olemassa ja että niiden arvot ovat määrittelyjen mukaisia. IDS toimii näin porttina, joka erottaa laadukkaan ja puutteellisen datan toisistaan.
+
+Vasta validoidusta mallista muodostetaan BOM. Tämä toteutetaan siten, että IFC-mallin objektit suodatetaan, ryhmitellään ja muunnetaan osaluetteloksi. BOM sisältää elementtien tunnistetiedot, määrät ja keskeiset ominaisuudet, ja se toimii pilotissa toimitusketjun jatkoprosessien lähtötietona.
 
 ---
 
