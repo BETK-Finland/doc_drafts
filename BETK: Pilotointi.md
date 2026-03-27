@@ -25,9 +25,20 @@ Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havai
 
 </details>
 
-1. [Suunnittelu](#1-suunnittelu)
-2. [Tapahtumatiedon jakaminen toimitusketjussa](#2-tapahtumatiedon-jakaminen-toimitusketjussa)
+## Sisällysluettelo
 
+1. [Suunnitteluvaiheen tietosisältöjen pilotointi](#1-suunnitteluvaiheen-tietosisältöjen-pilotointi)
+
+2. [Tapahtumatiedon jakaminen toimitusketjussa](#2-tapahtumatiedon-jakaminen-toimitusketjussa)  
+   2.1 [Käyttötapaukset ja toteutus](#21-käyttötapaukset-ja-toteutus)  
+   2.2 [Aikataulu](#22-aikataulu)  
+   2.3 [Dokumentointi](#23-dokumentointi)  
+
+3. [Transaktiotiedonvaihto Peppol-verkossa](#3-transaktiotiedonvaihto-peppol-verkossa)  
+   3.1 [Pilotin soveltamisala](#31-pilotin-soveltamisala)  
+   3.2 [Käyttötapaukset ja toteutus](#32-käyttötapaukset-ja-toteutus)  
+   3.3 [Arvioitavat tulokset](#33-arvioitavat-tulokset)  
+   3.4 [Yhteys EPCIS-tapahtumatietoon](#34-yhteys-epcis-tapahtumatietoon)  
 ---
 
 ## 1. Suunnitteluvaiheen tietosisältöjen pilotointi
