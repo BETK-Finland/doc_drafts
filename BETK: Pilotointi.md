@@ -127,7 +127,7 @@ Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistami
 </table>
 
 <h2>Käytettävät tiedonkantajat ja tunnistusteknologia</h2>
-Pilotoinnissa käytettävien tiedonkantajien tiedot. Pyrimme ensisijaisesti hyödyntämään RFID-teknologiaa tiedonkantajana. Vaihtoehtoisena tiedonkantajana voidaan hyödyntää 2D-viivakoodeja (DataMatrix ja GS1 Digital Link).
+Pilotoinnissa käytettävien tiedonkantajien tiedot. Pyrimme ensisijaisesti hyödyntämään RFID-teknologiaa tiedonkantajina. Vaihtoehtoisina tai lisätiedonkantajina voidaan hyödyntää 2D-viivakoodeja (DataMatrix ja GS1 Digital Link).
 <table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
   <thead>
     <tr>
@@ -171,7 +171,7 @@ Pilotoinnissa käytettävien tiedonkantajien tiedot. Pyrimme ensisijaisesti hyö
       <td colspan="2" style="width:200px;">EPCIS-standardi</td>
       <td>
         GS1 EPCIS mahdollistaa tapahtumatietojen tallentamisen ja jakamisen tuotteiden ja sijaintien muutoksista toimitusketjussa.
-        Määrittelee tiedon koodauksen ja kommunikoinnin eri osapuolten välillä. RFID/EPC yksilöi elementit
+        Määrittelee tapahtumatietomallin ja jakamisen rajapinnat. RFID/EPC yksilöi elementit
         <br>• Testataan lukutapahtumien jakamista EPCIS-standardin mukaan
       </td>
     </tr>
