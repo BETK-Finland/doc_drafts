@@ -62,6 +62,7 @@ Pilotoinnissa kiinnitetään erityistä huomiota siihen, missä määrin vakioid
 Lisäksi pilotissa arvioidaan, miten suunnitteluvaiheen tietosisältö kytkeytyy toimitusketjun myöhempiin vaiheisiin. Erityisesti tarkastellaan, voidaanko BOM-rakenteen kautta muodostettu tuotetieto yhdistää tuotteiden yksilöintiin sekä toimitusketjun tapahtumatietoon (EPCIS). Tavoitteena on luoda yhtenäinen tietovirta suunnittelusta toteutukseen ja edelleen elinkaaren aikaiseen tiedonhallintaan.
 
 Pilotin tuloksena muodostetaan kokonaiskuva siitä, millä edellytyksillä BETK-soveltamisohjeen mukainen tietosisältö mahdollistaa tietomallipohjaisen BOM:n muodostamisen sekä sen hyödyntämisen toimitusketjun digitaalisissa prosesseissa. Samalla tunnistetaan mahdolliset puutteet tietosisällöissä, mallinnusohjeissa tai käytännön toteutuksessa, ja esitetään suositukset jatkokehitystä varten.
+
 ---
 
 ## 2. Tapahtumatiedon jakaminen toimitusketjussa
