@@ -37,11 +37,10 @@ Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havai
 ## 2. Tapahtumatiedon jakaminen toimitusketjussa
 Pilotin aiheena on testata ja arvioida BETK-työryhmässä vakioitujen GS1-toimitusketjustandardeihin perustuvien koneluettavien tietomäärittelyiden sekä rakenteellisessa muodossa jaettavien tapahtumatietojen (GS1 EPCIS) tiedonsiirron toimintamallien toimivuutta toimitusketjun eri vaiheissa.
 
-Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistamisen toteutusta fyysisten tuotteiden toimi-tusketjussa hyödyntäen koneellisesti luettavia standardoituja menetelmiä, kuten 2D-viivakoodeja ja RFID-teknologiaa. Toimitusketjun eri vaiheissa syntyvät lukutapahtumat ja kyseisen tapahtumatiedon jakaminen GS1 EPCIS standardin mukaisesti. Pilotin laajuus on suunniteltu kattavaksi, jotta määrällinen data-analyysi voidaan suorittaa riittävän suurella tarkastel-tavien tuotteiden joukolla (noin 100 tuotetta). 
+Lisäksi yhtenä keskeisenä aiheena on testata tuoteyksilöinnin ja -tunnistamisen toteutusta fyysisten tuotteiden toimitusketjussa hyödyntäen koneellisesti luettavia standardoituja menetelmiä, kuten 2D-viivakoodeja ja RFID-teknologiaa. Toimitusketjun eri vaiheissa syntyvät lukutapahtumat ja kyseisen tapahtumatiedon jakaminen GS1 EPCIS -standardin mukaisesti. Pilotin laajuus on suunniteltu kattavaksi, jotta määrällinen data-analyysi voidaan suorittaa riittävän suurella tarkasteltavien tuotteiden joukolla (noin 100 tuotetta). 
 
 ### 2.1 Käyttötapaukset ja toteutus
 
-h2>Käyttötapaukset pilotissa</h2>
 <h2>Käyttötapaukset & toteutus</h2>
 
 <table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse;">
