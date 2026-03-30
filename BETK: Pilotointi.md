@@ -9,12 +9,7 @@ Status: Luonnos
 
 ## Asiakirjan tiedot
 
-Pilotointisuunnitelma perustuu modulaariseen lähestymistapaan ja jakautuu selkeästi tunnistettuihin osakokonaisuuksiin, joita voidaan pilotoida joko itsenäisesti tai osana laajempaa avoimen toimintaympäristön kokonaisuutta. 
-Pilotoinnin tavoitteena on tuottaa luotettavaa tietoa ratkaisun toimivuudesta, vaikuttavuudesta ja kehitystarpeista aidossa toimintaympäristössä.
-
-Pilotoitavat osakokonaisuudet perustuvat Rakennusteollisuus RT:n BETK-toimitusketjutyöryhmän tunnistettuihin kehitysaihioihin. Pilotin odotetaan edistävän rakennusalan toimitusketjujen digitaalisen hallinnan kehitystä ja tukevan alan systeemistä muutosta kohti tehokkaampaa ja läpinäkyvämpää toimintaympäristöä. Toimitusketjun testauksen tulokset dokumentoidaan, analysoidaan ja julkaistaan avoimesti rakennusalan toimijoiden käyttöön sekä suomeksi että englanniksi. 
-
-Pyrimme pilotissa dokumentoimaan kaikki pilotointiin liittyvät vaiheet ja havainnot. Dokumentoinnin tavoitteena on mahdollistaa tulosten hyödyntämisen alan kehityksen edistämisessä.
+Pilotointisuunnitelma perustuu modulaariseen lähestymistapaan ja rakentuu selkeästi rajatuista osakokonaisuuksista, joita voidaan toteuttaa joko erillisinä piloteina tai osana laajempaa avointa toimintaympäristöä. Pilotoinnin tavoitteena on tuottaa luotettavaa tietoa ratkaisun toimivuudesta, vaikuttavuudesta ja kehitystarpeista aidossa toimintaympäristössä sekä vahvistaa avoimeen toimintaympäristöön ja avoimiin standardeihin perustuvaa toimintamallia rakennusalalla. Pilotointiin valittavat osakokonaisuudet pohjautuvat Rakennusteollisuus RT:n BETK-toimitusketjutyöryhmän tunnistamiin kehitysaihioihin, ja niiden tarkoituksena on edistää rakennusalan toimitusketjujen digitaalisen hallinnan kehittymistä sekä tukea alan systeemistä muutosta kohti tehokkaampaa, läpinäkyvämpää ja yhteentoimivampaa toimintaympäristöä. Pilotin vaiheet, havainnot ja tulokset dokumentoidaan ja analysoidaan systemaattisesti, jotta tuotettua tietoa voidaan hyödyntää laajasti alan kehittämisessä. Tulokset julkaistaan avoimesti rakennusalan toimijoiden hyödynnettäväksi suomeksi ja englanniksi.
 
 <details> 
 <Summary>Asiakirjan versio</Summary>
