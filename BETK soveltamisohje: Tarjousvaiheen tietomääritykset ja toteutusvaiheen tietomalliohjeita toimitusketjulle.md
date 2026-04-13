@@ -361,7 +361,7 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
     </tr>
     <tr>
      <td><code>CL</code></td>
-     <td>Parvekelaatta-elementti</td>
+     <td>Parvekelaattaelementti</td>
     </tr>
     <tr>
      <td><code>CP</code></td>
@@ -377,7 +377,7 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
     </tr>
     <tr>
      <td><code>M</code></td>
-     <td>Parvekepieli-elementti</td>
+     <td>Parvekepielielementti</td>
     </tr>
     <tr>
      <td><code>Z</code></td>
