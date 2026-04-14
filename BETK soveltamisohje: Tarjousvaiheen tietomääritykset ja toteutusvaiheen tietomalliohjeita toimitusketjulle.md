@@ -311,6 +311,10 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
      <td><code>L</code></td>
      <td>Laattaelementti (massiivilaatta, välipohja)</td>
     </tr>
+     <tr>
+     <td><code>LT</code></td>
+     <td>Lepotasolaatta (teräskonsolit)</td>
+    </tr>
     <tr>
      <td><code>EL</code></td>
      <td>Alapohjalaatta (massivilaatta, eristetty)</td>
