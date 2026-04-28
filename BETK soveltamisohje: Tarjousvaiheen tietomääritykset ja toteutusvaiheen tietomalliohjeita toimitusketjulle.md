@@ -29,7 +29,7 @@ Status: Luonnos
 
 | **Nimi**            | **Organisaatio**               |
 |---------------------|--------------------------------|
-| Antti Pekkala       | Fira Oy                        |
+| Antti Pekkala       | Fira Rakennus Oy               |
 | Teemu Anttila       | Ramboll                        |
 | Janne Kihula        | Rakennustuoteteollisuus RTT ry |
 | Teemu Alaluusua     | Aalto-yliopisto                |
@@ -558,7 +558,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
          <td>06 SEM-Sementtiliiman poisto</td>
          </tr>
       <tr>
-         <td>07 PESH- Hienopesubetonipinta</td>
+         <td>07 PESH-Hienopesubetonipinta</td>
          </tr>
       <tr>
          <td>08 MUU-Muu pinta</td>
@@ -586,7 +586,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
          <td>06 SEM-Sementtiliiman poisto</td>
          </tr>
       <tr>
-         <td>07 PESH- Hienopesubetonipinta</td>
+         <td>07 PESH-Hienopesubetonipinta</td>
          </tr>
       <tr>
          <td>08 MUU-Muu pinta</td>
@@ -614,7 +614,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
          <td>06 SEM-Sementtiliiman poisto</td>
          </tr>
       <tr>
-         <td>07 PESH- Hienopesubetonipinta</td>
+         <td>07 PESH-Hienopesubetonipinta</td>
          </tr>
       <tr>
          <td>08 MUU-Muu pinta</td>
@@ -659,8 +659,6 @@ Väribetoni-kenttään merkitään väribetonin väri.
       <td>06 RUS-Ruskea</td>
 </tr><tr>
       <td>07 VIH-Vihreä</td>
-</tr><tr>
-      <td>05 SIN-Sininen</td>
 </tr><tr>
       <td>08 KEL-Keltainen</td>
 </tr><tr>
